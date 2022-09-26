@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculos de figura</title>
+</head>
+<body>
+
+    <main class="container-sm container">
+        <section id="figura" class="row justify-content-center mt-3">
+            <article class="col-sm-12 col-md-7">
+                <h1 class="text-center">Calcular &aacute;rea y perimetro de figura</h1>
+                <div class="border p-5">
+                    <label for="selectFig" class="form-label">Elegir Figura</label>
+                    <select name="fig" id="selectFig" class="form-select" >
+                        <option selected>Elige figura</option>
+                        <option value="1">Triangulo rectangulo</option>
+                        <option value="2">Rectangulo</option>
+                    </select>
+
+                    <div id="detailFig">
+                       
+                    </div>
+                </div>
+            </article>
+        </section> 
+        
+        <section id="result" class="row mt-5 justify-content-center">
+            <div class="col-sm-12 col-md-7">
+                <table class="table table-bordered ">
+                    <thead>
+                        <tr class="text-center bg-opacity-75 bg-success">
+                            <th colspan="2" id="titleTable">Resultado del calculo del </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbo">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer class="row m-5">
+            <h5 class="text-center">Arcelio Montezuma</h5>
+            <h5 class="text-center">Geovanny Pitti</h5>
+            <h5 class="text-center">Jazmin Gallardo</h5>
+            <h5 class="text-center">Ronaldino Ellington</h5>
+        </footer>
+    </main>
+    
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
